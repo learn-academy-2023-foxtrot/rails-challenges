@@ -1,0 +1,30 @@
+body {
+    background-image: linear-gradient(
+        to bottom,
+        rgba(255, 255, 0, 0.5),
+        rgba(0, 0, 255, 0.5)
+      ), url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fcommons.m.wikimedia.org%2Fwiki%2FFile%3ASpongeBob_SquarePants_street_art%2C_Sz%25C3%25A9kesfeh%25C3%25A9rv%25C3%25A1r_%401.jpg&psig=AOvVaw1ZAlZcf050Te4pJ-Y16JU7&ust=1696445138256000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCNCKxuDE2oEDFQAAAAAdAAAAABAE);
+    background-size: auto;
+}
+h1 {
+    padding: 20px;
+    text-align: center;
+    color: #877396;
+    font-family: Papyrus;
+}
+ul {
+    font-size: 20px;
+    color: #877396;
+    font-family: Papyrus;
+}
+ol {
+    font-size: 20px;
+    color: #877396;
+    font-family: Papyrus;
+}
+h2 {
+    padding: 20px;
+    text-align: center;
+    color: #877396;
+    font-family: Papyrus;
+}
