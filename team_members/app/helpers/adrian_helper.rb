@@ -1,0 +1,2 @@
+module AdrianHelper
+end
