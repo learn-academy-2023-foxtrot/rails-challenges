@@ -3,4 +3,5 @@ Rails.application.routes.draw do
   get '/dre' => 'landing#dre'
   get '/louis' => 'landing#louis'
   root 'landing#landing'
+  get '/cubed/:number' => 'cubed#cubed'
 end
