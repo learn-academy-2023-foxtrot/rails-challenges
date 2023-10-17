@@ -1,3 +1,4 @@
+<<<<<<< routes-dre-louis
 As a user, I can visit a custom landing page at localhost:3000.
 
 As a user, I can see the names of my team members as hyperlinks on the landing page.
@@ -13,3 +14,29 @@ number is evenly divisible by the second.
 As a user, I can visit a page called palindrome that takes a string as a param and displays whether it is a palindrome (the same word forward and backward).
 
 As a user, I can visit a page called madlib that takes params of a noun, verb, adjective, adverb, and displays a short silly story.
+=======
+# README
+
+This README would normally document whatever steps are necessary to get the
+application up and running.
+
+Things you may want to cover:
+
+* Ruby version
+
+* System dependencies
+
+* Configuration
+
+* Database creation
+
+* Database initialization
+
+* How to run the test suite
+
+* Services (job queues, cache servers, search engines, etc.)
+
+* Deployment instructions
+
+* ...
+>>>>>>> main
