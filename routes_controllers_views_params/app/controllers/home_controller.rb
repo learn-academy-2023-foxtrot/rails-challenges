@@ -1,14 +1,21 @@
 class HomeController < ApplicationController
-    def mainpage
+
+    def main
     end
-def team_member
-    @member_one = 'anabella'
+
+    def cubed
+        @number = params[:number].to_i ** 3   
+    end
+
+    def evenly
+        @notSoEven = params[:notSoEven].to_i
+        @veryEvenStieven = params[:veryEvenStieven].to_i
+        if @notSoEven % @veryEvenStieven == 0
+            @even = "it is an even Stiven"
+        else
+            @odd = "that's an odd Todd"
+        end
+    end
+
 end
-def team_member_two
-    @member_two = 'aleja'
-end
-def anabella
-end 
-def aleja
-end
-end 
+

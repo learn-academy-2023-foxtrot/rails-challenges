@@ -1,6 +1,7 @@
 class CubedController < ApplicationController
-    def answer
 
-        @cubed = params[:number].to_i * params[:number].to_i 
+    def cubed
+        @number = params[:number].to_i**3
+        render "cubed"
     end
 end
