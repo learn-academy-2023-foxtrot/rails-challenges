@@ -1,13 +1,8 @@
 Rails.application.routes.draw do
-<<<<<<< routes-dre-louis
-  get '/landing' => 'landing#landing'
-  get '/dre' => 'landing#dre'
-  get '/louis' => 'landing#louis'
-  root 'landing#landing'
-  get '/cubed/:number' => 'cubed#cubed'
-=======
-  root 'main#landing'
-  get '/ilene' => 'main#ilene'
-  get '/xe' => 'main#xe'
->>>>>>> main
+
+  root 'home#mainpage'
+  get 'team_member' => 'home#anabella'
+  get 'team_member_two' => 'home#aleja'
+  get '/answer/:number' => 'cubed#answer'
 end
+
